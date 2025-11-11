@@ -1,0 +1,15 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradiente modificado para estado pressionado -->
+    <gradient
+        android:startColor="#EF62BB"
+        android:endColor="#712AF8"
+        android:angle="0" />
+
+    <!-- Bordas arredondadas -->
+    <corners android:radius="24dp" />
+
+    <!-- Stroke mais evidente para estado pressionado -->
+    <stroke
+        android:width="2dp"
+        android:color="#FFFFFF" />
+</shape>

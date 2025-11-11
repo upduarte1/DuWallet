@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Definição do gradiente -->
+    <gradient
+        android:startColor="#E56A27"
+        android:endColor="#EEB133"
+        android:angle="0" />
+
+    <!-- Stroke -->
+    <stroke
+        android:width="2dp"
+        android:color="#00FF0000" />
+</shape>

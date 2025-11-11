@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/wall2"
+    tools:context=".MainActivity">
+
+    <!-- Espaço para centralizar o formulário -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Cabeçalho -->
+        <TextView
+            android:id="@+id/headerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bem-vindo à DuWallet!"
+            android:textSize="36sp"
+            android:textColor="#3F51B5"
+            android:gravity="center"
+            android:layout_marginBottom="100dp"
+            android:textStyle="bold" />
+
+        <!-- Campo para Nome de Usuário -->
+        <EditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:padding="12dp"
+            android:background="#00FFFFFF"
+            android:layout_marginBottom="16dp"
+            android:inputType="text" />
+
+        <!-- Campo para Senha -->
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="#00FFFFFF"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp" />
+    </LinearLayout>
+
+    <!-- Botões e Rodapé -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Botão de Login -->
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold" />
+
+        <!-- Botão de Registro -->
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registar nova conta"
+            android:backgroundTint="#FF5722"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold" />
+
+        <!-- Rodapé -->
+        <TextView
+            android:id="@+id/footerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By Duarte Dias"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

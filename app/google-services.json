@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "411735268603",
+    "project_id": "duarteapp-b4ab7",
+    "storage_bucket": "duarteapp-b4ab7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411735268603:android:cf1e97c1ac83c93446a45e",
+        "android_client_info": {
+          "package_name": "com.example.duarteapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRg7fjBzUSEbJWpjZYrazBALC9YWSWCAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

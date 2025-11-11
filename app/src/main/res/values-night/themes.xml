@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DuarteApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="29">false</item>
+        <item name="colorSurface">@color/white</item>
+    </style>
+
+    <style name="CalendarDateTextStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="CalendarWeekDayTextStyle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+
+    <style name="Theme.DuarteApp" parent="Base.Theme.DuarteApp" />
+</resources>

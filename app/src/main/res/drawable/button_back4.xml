@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Definição do gradiente -->
+    <gradient
+        android:startColor="#5F712AF8"
+        android:endColor="#5EEF62BB"
+        android:angle="0" />
+
+    <!-- Bordas arredondadas -->
+    <corners android:radius="24dp" />
+
+    <!-- Stroke -->
+    <stroke
+        android:width="2dp"
+        android:color="#00FF0000" />
+</shape>
